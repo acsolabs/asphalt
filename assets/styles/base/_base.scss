@@ -1,0 +1,17 @@
+// (body, html, box-sizing)
+html {
+  scroll-behavior: smooth; // Scroll fluide liens nav
+  font-size: 62.5%; // 1rem = 10px (facilite calculs)
+  overflow-x: hidden; // Empêche scroll horizontal
+}
+
+body {
+  background: url(/assets/img/bg.jpg) fixed center/cover;
+  font-size: 1.6rem; // 16px global
+  line-height: 1.6;
+  min-height: 100vh;
+  position: relative;
+
+  // Transitions douces pour ta landing
+  transition: all 0.3s ease;
+}

@@ -1,1 +1,57 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: url(/assets/img/bg.jpg) fixed center/cover;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  min-height: 100vh;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MerriweatherLight";
+  src: url(/assets/fonts/Merriweather-VariableFont_opsz\,wdth\,wght.ttf);
+  font-weight: 300;
+  font-display: swap;
+}
+body {
+  font-family: MerriweatherLight, sans-serif;
+}
+body header {
+  color: rgb(240, 240, 240);
+}
+body header h1 {
+  font-family: Inter, sans-serif;
+  font-size: 6rem;
+}
+body h2 {
+  font-family: Inter, sans-serif;
+  font-size: 4rem;
+}
+body h3 {
+  font-family: Inter, sans-serif;
+}/*# sourceMappingURL=index.css.map */

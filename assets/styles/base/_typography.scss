@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MerriweatherLight";
+  src: url(/assets/fonts/Merriweather-VariableFont_opsz\,wdth\,wght.ttf);
+  font-weight: 300;
+  font-display: swap;
+}
+
+body {
+  font-family: MerriweatherLight, sans-serif;
+  header {
+    color: $white;
+    h1 {
+      font-family: Inter, sans-serif;
+      font-size: 6rem;
+    }
+  }
+  h2 {
+    font-family: Inter, sans-serif;
+    font-size: 4rem;
+  }
+  h3 {
+    font-family: Inter, sans-serif;
+  }
+  p {
+  }
+}
