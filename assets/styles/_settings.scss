@@ -55,7 +55,6 @@ body {
     left: 0;
     top: 0;
     background: $black1;
-    z-index: 2;
     animation: animDisplay 2s ease forwards;
     animation-delay: 0.15s;
 
@@ -77,22 +76,21 @@ body {
   p {
     font-style: italic;
     margin: 30px auto 20px;
+  }
 
-    .btn {
-      width: 170px;
-      height: 45px;
-      font-size: 0.75rem;
-      background: transparent;
-      transition: transform 0.2s ease;
-      &:hover {
-        transform: scale(1.05);
-      }
-    }
+  .btn {
+    width: 170px;
+    height: 45px;
+    font-size: 0.75rem;
+    border: 2px solid $black1;
+    margin: 10px;
+    cursor: pointer;
+    background: none;
+    transition: transform 0.2s ease;
+    @include title;
 
-    img {
-      max-width: 90%;
-      height: 1000px;
-      object-fit: cover;
+    &:hover {
+      transform: scale(1.05);
     }
   }
 }

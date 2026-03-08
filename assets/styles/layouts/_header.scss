@@ -6,23 +6,32 @@ header {
   height: 100vh;
   width: 100%;
 
-  h1 {
-    @include title;
-    font-weight: 800;
-    font-size: 4rem;
+  .container {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: animHeader 1.5s forwards;
+    @keyframes animHeader {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    h1 {
+      @include title;
+      font-weight: 800;
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1rem;
+      margin: 25px 0 40px;
+    }
+    span {
+      border: 1px solid $white1;
+      padding: 8px;
+      border-radius: 50px;
+      font-size: 1.5rem;
+    }
   }
-  p {
-    font-size: 1rem;
-    margin: 25px 0 40px;
-  }
-  span {
-    border: 1px solid $white1;
-    padding: 8px;
-    border-radius: 50px;
-    font-size: 1.5rem;
-    z-index: 2;
-  }
-
   nav {
     position: absolute;
     display: flex;
