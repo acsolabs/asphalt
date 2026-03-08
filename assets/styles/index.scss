@@ -1,10 +1,4 @@
-@import "./abstracts/variables";
-@import "./abstracts/mixins";
-@import "./base/reset";
-@import "./base/base";
-@import "./base/typography";
-@import "./layout/header";
-@import "./components/navbar";
-@import "./layout/main";
-@import "./components/container";
-@import "./components/card";
+@import "./settings";
+@import "./layouts/header";
+@import "./layouts/main";
+@import "./layouts/footer";
